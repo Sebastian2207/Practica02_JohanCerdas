@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/estilos.css"/>
+
+    </head>
+
+    <body><!-- INICIO DE CUERPO DE PÁGINA -->
+        <header class="header"><!-- INICIO ENCABEZADO -->
+            
+            <nav class="navbar">
+                
+                <a class="logo nav-link" href="index.html">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Musica de Juegos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Trailers</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iframe.html">Iframe</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+            <hr>
+
+        </header><!-- FIN ENCABEZADO -->
+
+        <aside class="aside"><!-- INICIO BARRA DE INFORMACIÓN LATERAL -->
+
+            <h2 id = "noticia">Nuevos Juegos</h2>
+
+            <p>En esta semana tenemos en oferta el producto de vídeojuegos...</p>
+            <h3>Elden Ring</h3>
+            <h3>Howards Legacy</h3>
+            <h3>Minecraft</h3>
+
+        </aside><!-- FIN BARRA DE INFORMACÓN LATERAL -->
+
+        <section class="contenido"><!-- INICIO CONTENIDO DE PÁGINA -->
+
+            <h2>Contacto</h2>
+            
+            <hr/>            
+            <article>
+                
+                <form action="/cliente/insertar" method="post">
+                    
+                    <input type="hidden" name="id" value="5" />
+                    
+                    <fieldset>
+                        <label>Nombre</label>
+                        
+                        <input type="text" name="nombre" value="" size="40" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Apellidos</label>
+                    
+                        <input type="text" name="clave" value="" size="10"/>
+                    </fieldset>
+                    <fieldset>
+                        <label>Correo</label>
+                        
+                        <input type="text" name="correo" value="" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Dirección</label>
+                        
+                        <input type="text" name="direccion" value="" />
+                    </fieldset>
+                    
+                    <input type="submit" value="Enviar" />
+                </form>
+                
+            </article>
+
+        </section><!-- FIN CONTENIDO DE PÁGINA -->
+
+        <footer class="footer"><!-- INICIO PIE DE PÁGINA -->
+
+            IGamingShop 2023 &COPY;
+
+        </footer><!-- FIN DE PIE DE PÁGINA -->
+
+    </body><!-- FIN DE CUERPO DE LA PÁGINA -->
+
+</html>

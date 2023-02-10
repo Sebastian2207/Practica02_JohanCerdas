@@ -1,0 +1,133 @@
+/*
+    Este es un archivo para CSS
+    Comentario en CSS
+*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    padding: 80px 20px 0 0;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aside {
+    background-color: gray;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
+}
+
+.contenido {
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    left: 20%;
+    right: 0%;
+    bottom: 20px;
+    overflow: scroll;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: white;
+}
+
+article p {
+    color: blue;
+}
+
+#noticia {
+    color: black;
+}
+
+.titulo {
+    color: blueviolet;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.textoDerecha {
+    text-align: right;
+}
+
+thead tr {
+    background-color: green;
+}
+
+tbody tr:nth-child(odd){
+    background-color: gray;
+}
+
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+/* Comienza la definición del menú*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    font-size: 22px;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
